@@ -1,0 +1,30 @@
+.filters {
+  margin-left: 30px;
+  &__header {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  &__set {
+    background-color: aliceblue;
+    padding: 15px 20px;
+  }
+}
+.filter {
+  margin-top: 15px;
+  &:first-child {
+    margin-top: 0;
+  }
+  &__name {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+  }
+  &__select {
+    margin-top: 3px;
+    padding: 5px;
+    width: 200px;
+  }
+  &__option {
+  }
+}

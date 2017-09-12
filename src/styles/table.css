@@ -1,0 +1,39 @@
+.filtered-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: nowrap; }
+
+.sorted-table {
+  width: 100%; }
+  .sorted-table__header {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 15px; }
+
+.table {
+  border-collapse: collapse;
+  width: 100%; }
+  .table__cell {
+    padding: 5px;
+    min-width: 100px;
+    vertical-align: middle;
+    text-align: left;
+    border: 1px solid gray; }
+    .table__cell--head {
+      background-color: aliceblue;
+      cursor: pointer; }
+  .table__text {
+    position: relative; }
+    .table__text--head {
+      font-weight: bold; }
+  .table__arrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(90deg);
+    opacity: .2; }
+    .table__arrow--active {
+      opacity: 1; }

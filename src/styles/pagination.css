@@ -1,0 +1,42 @@
+.pagination {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap; }
+
+.paging {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap; }
+  .paging__button {
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer; }
+    .paging__button--active {
+      background-color: aliceblue; }
+
+.items-per-page {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap; }
+  .items-per-page__button {
+    padding: 9px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    margin-left: -1px; }
+    .items-per-page__button--active {
+      background-color: aliceblue; }
